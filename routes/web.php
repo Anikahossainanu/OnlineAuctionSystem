@@ -39,14 +39,14 @@ Route::get('/tables', function () {
     return view('tables');
 });
 
-Route::get('/updateProfile', function () {
+Route::get('/UpdateProfile', function () {
     return view('UpdateProfile');
 });
 
-Route::get('/uploadProduct', function () {
+Route::get('/UploadProduct', function () {
     return view('UploadProduct');
 });
 
-Route::get('/yourBids', function () {
+Route::get('/YourBids', function () {
     return view('YourBids');
 });
