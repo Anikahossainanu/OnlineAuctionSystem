@@ -50,3 +50,10 @@ Route::get('/uploadProduct', function () {
 Route::get('/yourBids', function () {
     return view('YourBids');
 });
+
+
+
+
+
+
+Route::post('/store','CustomerController@store');
